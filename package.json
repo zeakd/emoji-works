@@ -6,7 +6,10 @@
   "author": "zeakd <artydeveloperduck@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "node ../parcel/src/cli serve src/index.html --out-dir docs/",
-    "build": "node ../parcel/src/cli build src/index.html --out-dir docs/"
+    "serve": "node ../parcel/src/cli serve src/index.html --out-dir docs/ --public-url / --no-minify",
+    "build": "node ../parcel/src/cli build src/index.html --out-dir docs/ --public-url /emoji-works/"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
   }
 }
