@@ -1,0 +1,12 @@
+{
+  "name": "emoji-works",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "https://github.com/zeakd/emoji-works",
+  "author": "zeakd <artydeveloperduck@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node ../parcel/src/cli serve src/index.html --out-dir docs/",
+    "build": "node ../parcel/src/cli build src/index.html --out-dir docs/"
+  }
+}
