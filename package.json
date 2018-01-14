@@ -6,10 +6,13 @@
   "author": "zeakd <artydeveloperduck@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "node ../parcel/src/cli serve src/index.html --out-dir docs/ --public-url / --no-minify",
-    "build": "node ../parcel/src/cli build src/index.html --out-dir docs/ --public-url /emoji-works/"
+    "serve": "node ../parcel/src/cli serve src/index.html --public-url / --out-dir docs/",
+    "build": "node ../parcel/src/cli build src/index.html --public-url /emoji-works/ --out-dir docs/ --no-minify"
   },
   "devDependencies": {
     "husky": "^0.14.3"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.4.1"
   }
 }
